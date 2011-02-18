@@ -1,0 +1,8 @@
+{application, elogger,
+ [{description, "Disk-based file wrapping error_logger"},
+  {vsn, "0.0.0"},
+  {registered, []},
+  {modules, [disk_log_h, elogger]},
+  {applications, [kernel,stdlib]},
+  {env, []}
+ ]}.
